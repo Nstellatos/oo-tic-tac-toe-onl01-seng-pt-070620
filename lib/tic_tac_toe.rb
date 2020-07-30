@@ -106,6 +106,7 @@ end
 if won?
   puts "Congratulations #{winner}!"
 end
+end
 
 
 
