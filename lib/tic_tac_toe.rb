@@ -73,10 +73,10 @@ def full?
   @board.all? {|index| index == "X" || index == "O"}
 end
 def draw?
-  if !won && full?
-    return true 
+  if !won? && full?
+    true 
   else
-    return false
+    false
   end
 end
 
