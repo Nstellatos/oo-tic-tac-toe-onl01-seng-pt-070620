@@ -40,7 +40,8 @@ def current_player
   end
   player 
 end
-  
+def turn 
+end
   
   
   
