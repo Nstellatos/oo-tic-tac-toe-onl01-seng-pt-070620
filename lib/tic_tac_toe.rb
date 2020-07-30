@@ -86,6 +86,8 @@ def over?
     false
   end
 end
+def winner
+end
 
 
 
