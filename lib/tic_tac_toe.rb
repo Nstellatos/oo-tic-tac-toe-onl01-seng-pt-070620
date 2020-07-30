@@ -29,7 +29,7 @@ end
         turn += 1
       end
     end
-  return turn
+  turn
 end
 def current_player
   number_turns = turn_count
