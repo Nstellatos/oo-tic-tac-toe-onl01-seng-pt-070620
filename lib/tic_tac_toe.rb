@@ -41,7 +41,8 @@ def current_player
   player 
 end
 def turn 
-  puts
+  user_input = gets.chomp
+  index = input_to_index(user_input)
 end
   
   
