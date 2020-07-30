@@ -41,6 +41,7 @@ def current_player
   player 
 end
 def turn 
+  puts
 end
   
   
