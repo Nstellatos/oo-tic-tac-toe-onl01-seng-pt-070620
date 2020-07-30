@@ -87,7 +87,18 @@ def over?
   end
 end
 def winner
-  
+  index = []
+  index = won?
+  if index == false
+    nil
+  else
+    if @board[index[0]] == "X"
+      "X"
+    else
+      "O"
+    end
+  end
+end
 end
 
 
