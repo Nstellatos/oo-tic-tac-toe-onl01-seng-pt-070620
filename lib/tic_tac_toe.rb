@@ -69,6 +69,15 @@ WIN_COMBINATIONS.each {|win_combo|
   }
   return false
 end
+def full?
+  @board.all? {|index| index == "X" || index == "O"
+end
+
+
+
+
+
+
 
   
   
