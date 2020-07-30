@@ -103,6 +103,8 @@ def play
   until over? == true
   turn
 end
+if won?
+  puts "Congratulations #{winner}!"
 end
 
 
