@@ -99,7 +99,10 @@ def winner
     end
   end
 end
-
+def play
+  until over? == true
+  turn
+end
 
 
 
