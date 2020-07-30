@@ -52,14 +52,7 @@ def turn
 end
 end
 def won?
-WIN_COMBINATIONS.each do |win_combo|
-    if check_win_combo?('X', win_combo)
-      return win_combo
-      elsif check_win_combo?('O', win_combo)
-      return win_combo
-  end
-return false 
-end
+
 
   
   
