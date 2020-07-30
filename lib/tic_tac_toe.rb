@@ -72,7 +72,13 @@ end
 def full?
   @board.all? {|index| index == "X" || index == "O"}
 end
-
+def draw?
+  if !won && full?
+    true 
+  else
+    false
+  end
+end
 
 
 
