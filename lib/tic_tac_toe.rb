@@ -33,7 +33,12 @@ end
 end
 def current_player
   number_turns = turn_count
-  
+  if number_turns % 2 == 0 
+    player = "X"
+  else 
+    player = "O"
+  end
+  player 
 end
   
   
