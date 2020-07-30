@@ -58,7 +58,6 @@ WIN_COMBINATIONS.each do |win_combo|
       elsif check_win_combo?('O', win_combo)
       return win_combo
   end
-end
 return false 
 end
 
